@@ -29,7 +29,7 @@
          1. 通过**result.code, result.msg** 判断分析是否成功及原因.
          2. 通过**result.data**来决定如何显示视频.
             1. 如果result.data.huamanDetect.found == true, 给该视频的UI处增加一个小人装饰, 
-            2. 如果result.data.xyzDetect.found == true, 给该视频的UI处臧家一个xyz对应的装饰,
+            2. 如果result.data.xyzDetect.found == true, 给该视频的UI处增加一个xyz对应的装饰,
             3. 如果没有任何检测结果是true: 则在该视频UI处显示删除按钮装饰.
 
 
