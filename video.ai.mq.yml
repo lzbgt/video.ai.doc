@@ -6,6 +6,9 @@ info:
 queue:
 - name: video.ai/v1.0/task
   retian: false
+  type: shared-queue
+  sub-prefix: $queue/
+  pub-prefix: None
   qos: 1
   payload:
     type: object
@@ -14,7 +17,10 @@ queue:
   consumer: video.ai
 
 - name: video.ai/v1.0/result
-  retuan: false
+  retain: false
+  type: shared-queue
+  sub-prefix: $queue/
+  pub-prefix: None
   qos: 1
   payload:
     type: object

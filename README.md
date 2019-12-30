@@ -7,7 +7,7 @@
 - videoML-Worker: 视频分析异步任务处理器
 - azure-storage: 视频云存储
 
-![sd-video-ml](videml-sequce1.png)
+![sd-video-ml](videml-sequce.png)
 
 
 ### 接口定义
