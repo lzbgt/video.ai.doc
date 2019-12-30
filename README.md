@@ -9,7 +9,6 @@
 
 ![sd-video-ml](videml-sequce.png)
 
-
 ### 接口定义
 - [videoML-API-svc API spec (OpenAPI 3.0)](video.ai.api.yml)
 - [videoML-API-svc MQTT spec](video.ai.mq.yml)

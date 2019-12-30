@@ -89,9 +89,6 @@ components:
     task:
       type: object
       properties:
-        type: 
-          type: string
-          enum: [event, record]
         cameraId:
           type: string
           example: D72158932
